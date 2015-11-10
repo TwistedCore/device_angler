@@ -285,6 +285,10 @@ DEVICE_PACKAGE_OVERLAYS := \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.prov_mobiledata=false
 
+# Allow tethering without provisioning app
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610
 
