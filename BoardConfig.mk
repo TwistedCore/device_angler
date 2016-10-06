@@ -135,7 +135,10 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 
+# We use Clang 3.8 Designed for Snapdragon
 USE_CLANG_PLATFORM_BUILD := true
+SDCLANG := true
+SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
 
