@@ -139,5 +139,6 @@ NXP_CHIP_TYPE := 2
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 
 USE_CLANG_PLATFORM_BUILD := true
+SDCLANG := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
